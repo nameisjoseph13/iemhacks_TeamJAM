@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop Recommendation Login From</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'introstyle.css')}}" />
+  </head>
+  <body>
+
+    
+    <div class="login_form_container">
+      <div class="login_form">
+        <div class="container">
+            <div class="header">
+                <img src="static/Picsart_23-06-24_05-33-07-922.png" alt="Header Icon">
+            </div>
+        </div>
+        <div class="input_group">
+          <p>
+           This is our ultimate robust model that is capable of accurately predicting the most suitable crop for a specific area. 
+            To achieve this, we utilized a range of essential features such as Nitrogen, Potassium, Temperature, and some other features.
+            It is delved into various aspects of agriculture and discovered valuable insights
+       
+          </p>
+        </div>
+        <form method="POST" action="/login" >
+        <div class="button_group" id="login_button">
+            <button >Login</button>
+        </div>
+    </form>
+        <div class="fotter">
+          <a>Know more.....</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="ind.js"></script>
+  </body>
+</html>
+
